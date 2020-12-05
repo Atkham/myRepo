@@ -1,0 +1,22 @@
+
+mkdir myRepo
+
+cd myRepo
+
+echo "# myRepo" >> README.md
+
+git init
+
+git add README.md
+
+git config --global user.email "akhmedjanovatkham@gmail.com"
+
+git config --global user.name "Atkham"
+
+git commit -m "my first commit"
+
+git branch -M main
+
+git remote add origin https://github.com/Atkham/myRepo.git
+
+
